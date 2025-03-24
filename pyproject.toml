@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "multiply_ai_coding_task"
+version = "0.1.0"
+description = ""
+authors = ["Michael Curtis <mike@multiply.ai>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+google-genai = "^1.7.0"
+
+[tool.poetry.scripts]
+demo = "scripts:demo"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
