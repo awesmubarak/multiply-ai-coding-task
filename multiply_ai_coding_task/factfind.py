@@ -45,6 +45,6 @@ class User:
     first_name: str
     last_name: str
     email: str
-    date_of_birth: dt.datetime
+    date_of_birth: dt.date
 
     goals: list[Goal]
